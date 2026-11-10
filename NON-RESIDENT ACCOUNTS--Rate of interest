@@ -1,0 +1,1218 @@
+<style type="text/css">.nre-section {
+        padding: 20px;
+    }
+
+    .nre-table {
+        width: 93%;
+        border-collapse: collapse;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .nre-table th {
+        background-color: #d6eaf8;
+        border: 1px solid #b0c4d8;
+        padding: 8px 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .nre-table td {
+        border: 1px solid #c8d6e0;
+        padding: 8px 10px;
+        text-align: center;
+    }
+
+    .nre-table tbody tr:nth-child(odd) {
+        background-color: #eaf4fb;
+    }
+
+    .nre-table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .nre-note {
+        font-size: 16px;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .nre-note p {
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 6px;
+    }
+
+    .nre-note strong {
+        font-weight: bold;
+    }
+
+    .fcnr-section {
+        padding: 20px;
+    }
+
+    .fcnr-section p {
+
+        font-size: 16px;
+        margin-bottom: 15px;
+
+    }
+
+    .fcnr-table {
+        width: 96%;
+        border-collapse: collapse;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .fcnr-table th {
+        background-color: #d6eaf8;
+        border: 1px solid #b0c4d8;
+        padding: 8px 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .fcnr-table td {
+        border: 1px solid #c8d6e0;
+        padding: 8px 10px;
+        text-align: center;
+    }
+
+    .fcnr-table tbody tr:nth-child(odd) {
+        background-color: #eaf4fb;
+    }
+
+    .fcnr-table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .fcnr-note {
+        font-size: 16px;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .fcnr-note p {
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 6px;
+    }
+
+    .fcnr-note strong {
+        font-weight: bold;
+    }
+
+    .appendix-heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px !important;
+        color: #1434A4;
+        margin: 20px 0 5px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .savings-heading {
+        font-size: 28px !important;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #1434A4;
+        text-align: center;
+    }
+
+    .rfc-heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 20px 0 10px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* ===== Responsiveness added below (no existing rules changed) ===== */
+    @media (max-width: 992px) {
+
+        .nre-table,
+        .fcnr-table {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            white-space: nowrap;
+        }
+
+        .nre-table th,
+        .nre-table td,
+        .fcnr-table th,
+        .fcnr-table td {
+            white-space: nowrap;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .nre-section,
+        .fcnr-section {
+            padding: 12px;
+        }
+
+        .nre-table,
+        .fcnr-table {
+            font-size: 13px;
+        }
+
+        .nre-table th,
+        .nre-table td,
+        .fcnr-table th,
+        .fcnr-table td {
+            padding: 6px 8px;
+        }
+
+        .appendix-heading {
+            font-size: 19px !important;
+        }
+
+        .savings-heading {
+            font-size: 21px !important;
+        }
+
+        .rfc-heading {
+            font-size: 17px;
+        }
+
+        .nre-note,
+        .fcnr-note {
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width: 480px) {
+
+        .nre-table,
+        .fcnr-table {
+            font-size: 11px;
+        }
+
+        .appendix-heading {
+            font-size: 16px !important;
+        }
+
+        .savings-heading {
+            font-size: 17px !important;
+        }
+
+        .rfc-heading {
+            font-size: 16px;
+        }
+    }
+</style>
+<meta charset="utf-8">
+<style type="text/css">/* =========================================================
+     TERM DEPOSIT RATES
+     Liferay HTML + Google Translate safe CSS
+     ========================================================= */
+
+    .middle-section {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.45;
+        color: #111;
+        overflow: visible;
+    }
+
+    .middle-section *,
+    .middle-section *::before,
+    .middle-section *::after {
+        box-sizing: border-box;
+    }
+
+    .middle-section .savings-heading {
+        display: block;
+        width: 100%;
+        margin: 0 0 18px;
+        padding: 0;
+        color: #1434a4;
+        font-size: 34px;
+        line-height: 1.25;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .middle-section .section-heading {
+        display: block;
+        width: 100%;
+        margin: 24px 0 12px;
+        padding: 0;
+        font-size: 17px;
+        line-height: 1.45;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /* The wrapper scrolls; the table stays a real HTML table.
+     This is much safer for rowspan/colspan + translated text. */
+    .middle-section .table-scroll {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: visible;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .middle-section table {
+        display: table;
+        width: 94%;
+        min-width: 760px;
+        margin: 0 auto;
+        padding: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: auto;
+        font-size: 17px;
+        line-height: 1.35;
+        background: #fff;
+    }
+
+    .middle-section .table-scroll table {
+        margin-bottom: 0;
+    }
+
+    .middle-section thead {
+        display: table-header-group;
+    }
+
+    .middle-section tbody {
+        display: table-row-group;
+    }
+
+    .middle-section tr {
+        display: table-row;
+    }
+
+    .middle-section th,
+    .middle-section td {
+        display: table-cell;
+        border: 1px solid #b8c7d3;
+        padding: 8px 10px;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 400;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    .middle-section th {
+        background-color: #d6eaf8;
+        font-weight: 700;
+    }
+
+    .middle-section tbody tr:nth-child(odd) {
+        background-color: #eaf4fb;
+    }
+
+    .middle-section tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    /* Notes inside the first table */
+    .middle-section .table-notes {
+        text-align: left;
+        font-size: 15px;
+        line-height: 1.55;
+        padding: 14px;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    .middle-section .table-notes p {
+        margin: 0 0 12px;
+        padding: 0;
+        font-size: inherit;
+        line-height: inherit;
+        text-align: left;
+    }
+
+    /* Notes after the tables */
+    .middle-section .note-text {
+        display: block;
+        width: 100%;
+        margin: 0 0 8px;
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.55;
+        text-align: left;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    .middle-section .notes-gap {
+        display: block;
+        height: 8px;
+    }
+
+    @media (max-width: 992px) {
+        .middle-section {
+            padding: 16px;
+        }
+
+        .middle-section table {
+            width: 100%;
+            min-width: 760px;
+            font-size: 16px;
+        }
+
+        .middle-section .savings-heading {
+            font-size: 28px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .middle-section {
+            padding: 12px;
+            font-size: 15px;
+        }
+
+        .middle-section .savings-heading {
+            font-size: 24px;
+            line-height: 1.3;
+            margin-bottom: 14px;
+        }
+
+        .middle-section .section-heading {
+            font-size: 15px;
+            line-height: 1.45;
+            margin: 20px 0 10px;
+        }
+
+        .middle-section table {
+            min-width: 720px;
+            font-size: 14px;
+        }
+
+        .middle-section th,
+        .middle-section td {
+            padding: 7px 8px;
+        }
+
+        .middle-section .table-notes {
+            font-size: 13px;
+        }
+
+        .middle-section .note-text {
+            font-size: 11px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .middle-section {
+            padding: 8px;
+        }
+
+        .middle-section .savings-heading {
+            font-size: 20px;
+        }
+
+        .middle-section table {
+            min-width: 680px;
+            font-size: 13px;
+        }
+
+        .middle-section th,
+        .middle-section td {
+            padding: 6px 7px;
+        }
+
+        .middle-section .table-notes {
+            font-size: 12px;
+        }
+
+        .middle-section .note-text {
+            font-size: 10.5px;
+        }
+    }
+
+    /* Google Translate compatibility layer */
+    .middle-section .gt-text {
+        display: inline;
+        font-family: Arial, "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+        unicode-bidi: isolate;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    .middle-section th .gt-text,
+    .middle-section td .gt-text {
+        unicode-bidi: isolate;
+    }
+
+    .middle-section td,
+    .middle-section th {
+        unicode-bidi: isolate;
+        writing-mode: horizontal-tb;
+    }
+
+    .middle-section .table-scroll {
+        overflow-x: auto !important;
+        overflow-y: visible !important;
+    }
+
+    .middle-section table {
+        display: table !important;
+        border-collapse: collapse !important;
+        border-spacing: 0 !important;
+    }
+
+    .middle-section tr {
+        display: table-row !important;
+    }
+
+    .middle-section th,
+    .middle-section td {
+        display: table-cell !important;
+    }
+</style>
+<div class="middle-section" lang="en" translate="yes">
+<p class="savings-heading"><span class="gt-text" dir="auto" translate="yes">TERM DEPOSITS-Rate of Interest (%) p.a.</span></p>
+<!-- TERM DEPOSITS TABLE -->
+
+<div class="table-scroll">
+<table>
+	<thead>
+		<tr>
+			<th rowspan="6" width="19%"> </th>
+			<th colspan="3" width="27%"> </th>
+			<th colspan="5" rowspan="3" width="52%"><span class="gt-text" dir="auto" translate="yes"> 2. TERM DEPOSITS</span><br />
+			<span class="gt-text" dir="auto" translate="yes"> Rate of Interest (%) p.a.</span><br />
+			<span class="gt-text" dir="auto" translate="yes"> For Deposits less than Rs.3 Crore</span><br />
+			<span class="gt-text" dir="auto" translate="yes">w.e.f. </span><strong><span class="gt-text" dir="auto" translate="yes">02.11.2026</span></strong></th>
+		</tr>
+		<tr>
+			<th colspan="3"><span class="gt-text" dir="auto" translate="yes">A. Domestic</span></th>
+		</tr>
+		<tr>
+			<th colspan="3"><span class="gt-text" dir="auto" translate="yes">Less than Rs.3 Crore</span></th>
+		</tr>
+		<tr>
+			<th colspan="4"><span class="gt-text" dir="auto" translate="yes">Callable</span></th>
+			<th colspan="4"><strong><span class="gt-text" dir="auto" translate="yes">Non Callable ( Above Rs.1 Crore ) $</span></strong></th>
+		</tr>
+		<tr>
+			<th colspan="2"><span class="gt-text" dir="auto" translate="yes">General Public</span></th>
+			<th colspan="2"><span class="gt-text" dir="auto" translate="yes">Senior Citizen</span></th>
+			<th colspan="2"><span class="gt-text" dir="auto" translate="yes">General Public</span></th>
+			<th colspan="2"><span class="gt-text" dir="auto" translate="yes">Senior Citizen</span></th>
+		</tr>
+		<tr>
+			<th><span class="gt-text" dir="auto" translate="yes">Rate of Interest (% p.a.)</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Annualised Interest yield (% p.a.) **</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Rate of Interest (% p.a.) #</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Annualised Interest yield (% p.a.) **</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Rate of Interest (% p.a.)</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Annualised Interest yield (% p.a.) **</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Rate of Interest (% p.a.) #</span></th>
+			<th><span class="gt-text" dir="auto" translate="yes">Annualised Interest yield (% p.a.) **</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">Term Deposits (All Maturities)</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">—</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">7 Days to 45 Days*</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">3.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">3.03</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">3.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">3.03</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">46 Days to 90 Days</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.06</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.06</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.10</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.16</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.10</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.16</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">91 Days to 179 Days</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.32</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.32</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.42</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">4.42</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">180 Days to 269 Days</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.75</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.87</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.46</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.85</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.98</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">270 Days to less than 1 Year</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.50</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.61</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.14</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.60</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">5.72</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.10</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.24</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">1 Year &amp; above to 1 year 3 months Only (Except 444 days)</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.90</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.92</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">7.00</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">7.03</span></td>
+		</tr>
+		<tr>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">444 Days ##</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.65</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.66</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.15</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.19</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.75</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.77</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.25</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.29</span></strong></td>
+		</tr>
+		<tr>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">555 Days ##</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.75</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.77</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.25</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.29</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.85</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">6.87</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.35</span></strong></td>
+			<td><strong><span class="gt-text" dir="auto" translate="yes">7.40</span></strong></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">Above 1 Year 3 months to less than 2 Years (Except 555 days)</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.75</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.92</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.85</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">7.03</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">2 Years &amp; above to less than 3 Years</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.75</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.92</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.35</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.85</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">7.03</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">3 Years &amp; above to less than 5 Years</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.75</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.92</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+		</tr>
+		<tr>
+			<td><span class="gt-text" dir="auto" translate="yes">5 Years &amp; above to 10 Years</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.75</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">6.92</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+			<td><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+		</tr>
+		<tr>
+			<td class="table-notes" colspan="9">
+			<table style="width:100%; border-collapse:collapse; margin-bottom:16px;">
+				<thead>
+					<tr>
+						<th colspan="6" style="text-align:center; border:1px solid #000; padding:8px;"><span class="gt-text" dir="auto" translate="yes">REVISED ROI FOR NON-RESIDENT ACCOUNTS W.E.F 02.11.2026</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="border:1px solid #000; padding:8px;"> </td>
+						<td style="border:1px solid #000; padding:8px;"><span class="gt-text" dir="auto" translate="yes">a. NRO – all maturities</span></td>
+						<td colspan="4" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Same as applicable to Domestic Term Deposits</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px;"> </td>
+						<td style="border:1px solid #000; padding:8px;"><span class="gt-text" dir="auto" translate="yes">b. NRE –Term deposits</span></td>
+						<td colspan="4" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Rate of interest (%) per annum</span></td>
+					</tr>
+					<tr>
+						<td rowspan="5" style="border:1px solid #000; padding:8px;"> </td>
+						<td rowspan="5" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Period of Deposit</span></td>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">CALLABLE</span></td>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">NON-CALLABLE</span></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Less than Rs.3 Crore</span></td>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Above Rs.1.00 Crore to Less than RS.3.00 Crore</span></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">(w.e.f. 02.11.2026)</span></strong></td>
+						<td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">(w.e.f. 02.11.2026)</span></strong></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Rate of Interest</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Annualised</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Rate of Interest</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Annualised</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">(% per annum)</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Interest Yield (% per annum) *</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">(% per annum)</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Interest Yield (% per annum) *</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">1</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">1 Year &amp; above to 1 year 3 months Only (Except 444 days)</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">2</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">444 Days</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.65</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.66</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.75</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.77</span></strong></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">3</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">555 Days</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.75</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.77</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.85</span></strong></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><strong><span class="gt-text" dir="auto" translate="yes">6.87</span></strong></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">4</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">Above 1 Year 3 months to less than 2 Years (Except 555 days)</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.35</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">5</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">2 Years &amp; above to less than 3 Years</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.35</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.50</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">3 Years &amp; above to less than 5 Years</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+					</tr>
+					<tr>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">7</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">5 Years &amp; above to 10 Years</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.25</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">6.40</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+						<td style="border:1px solid #000; padding:8px; text-align:center;"><span class="gt-text" dir="auto" translate="yes">NA</span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p><strong><span class="gt-text" dir="auto" translate="yes">$-Non-callable term deposits are deposits where PREMATURE WITHDRAWAL IS NOT PERMITTED.</span></strong></p>
+
+			<p><strong><span class="gt-text" dir="auto" translate="yes">* Rates are applicable only for single deposit of Rs.5 Lakh &amp; above. Below Rs.5 Lakh, Minimum tenor of deposit is 15 Days.</span></strong></p>
+
+			<p><strong><span class="gt-text" dir="auto" translate="yes"># Additional interest of 0.50% for Senior Citizens (General Public) is available for Deposits (Other than NRO/NRE and CGA Deposits) less than Rs. 3 Cr and with tenor of 180 Days and above.</span></strong></p>
+			 
+
+			<p><strong><span class="gt-text" dir="auto" translate="yes">** Approximate Annualized Yield in % terms at the beginning of the slab.</span></strong><span class="gt-text" dir="auto" translate="yes"> Effective Annualized rate of return on Bank's Re-investment Deposit Plan (Kamadhenu Deposit) is based on quarterly compounding of interest. </span></p>
+			&nbsp;
+
+			<p><strong><span class="gt-text" dir="auto" translate="yes"># Additional rate of interest 0.60% for Super Senior Citizen (80 years &amp; above) is extended under Canara 444 &amp; Canara 555 products only, for both Callable &amp; Non-Callable deposits.</span></strong></p>
+			<br />
+			<strong><span class="gt-text" dir="auto" translate="yes">The above Rate of interest is applicable to Recurring deposits also.</span></strong><br />
+			<br />
+			<strong><u><span class="gt-text" dir="auto" translate="yes">AUTO RENEWAL FACILITY:</span></u></strong><br />
+			<br />
+			<span class="gt-text" dir="auto" translate="yes"> The deposit will be renewed automatically from the date of maturity for a similar period at the interest rate prevailing on the date of maturity for the original period of deposit. (except </span><strong><span class="gt-text" dir="auto" translate="yes">for Canara Tax Saver Deposits, Capital Gains Accounts, Court Deposits, Non-KYC Complied Term Deposits, Canara Samriddhi deposits (discontinued w.e.f. 01.10.2015), CanaraKhazana, CanaraShikhar Deposits (discontinued w.e.f. 26.03.2020), Canara Unique Deposits (discontinued w.e.f. 31.03.2022), CanaraAmrit (discontinued w.e.f. 26.01.2022), Non-callable deposits etc.)</span></strong><br />
+			<br />
+			<strong><u><span class="gt-text" dir="auto" translate="yes">PENALTY:</span></u></strong><br />
+			<span class="gt-text" dir="auto" translate="yes"> A penalty of 1.00% shall be levied for premature closure/part withdrawal/ premature extension of Domestic/NRO term deposits of less than Rs.3 Crore that are accepted/renewed on or after 12.03.2019.</span><br />
+			<br />
+			<span class="gt-text" dir="auto" translate="yes"> "For premature closure/part withdrawal/premature extension of Domestic/NRO term deposits, the Bank imposes a penalty of 1.00%. Such prematurely closed/part withdrawn/prematurely extended deposits will earn interest at 1.00% below the rate as applicable for the relevant amount slab as ruling on the date of deposit and as applicable for the period run OR 1.00% below the rate at which the deposit has been accepted, whichever is lower." However, no interest will be payable on term deposits prematurely closed/prematurely extended before completion of 7th day.</span><br />
+			<br />
+			<strong><span class="gt-text" dir="auto" translate="yes">Penalty is waived for premature extension of Domestic/NRO term deposits of less than Rs.3 Crore during the tenure, where extension is for a period longer than the period originally agreed to.</span></strong><br />
+			<br />
+			<strong><u><span class="gt-text" dir="auto" translate="yes">OVERDUE DEPOSITS:</span></u></strong><br />
+			<span class="gt-text" dir="auto" translate="yes"> If a Domestic Term Deposit matures and proceeds are unpaid, the amount left unclaimed with the Bank shall attract rate of interest as applicable to saving account or the contracted rate of interest on the matured Term Deposit, whichever is lower.</span><br />
+			<br />
+			<strong><span class="gt-text" dir="auto" translate="yes">Bank is not accepting term deposits under Non-Callable segment for maturities of below 46 Days for Domestic/NRO, maturities of below 1 year for NRE and 3 years and above for deposit Above Rs.1 Crore to less than Rs.3 Crore.</span></strong> <!-- FCNR (B) Table -->
+
+			<div class="fcnr-section"><!-- NRE ROI Table -->
+			<div class="nre-section">
+			<table class="nre-table">
+				<thead>
+					<tr>
+						<th colspan="10">REVISED ROI FOR NON-RESIDENT ACCOUNTS W.E.F 10.11.2026</th>
+					</tr>
+					<tr>
+						<th> </th>
+						<th>a. NRO – all maturities</th>
+						<th colspan="8">Same as applicable to Domestic Term Deposits</th>
+					</tr>
+					<tr>
+						<th> </th>
+						<th>b. NRE – Term deposits</th>
+						<th colspan="8">Rate of interest (%) per annum</th>
+					</tr>
+					<tr>
+						<th> </th>
+						<th> </th>
+						<th colspan="4">CALLABLE</th>
+						<th colspan="4">NON-CALLABLE</th>
+					</tr>
+					<tr>
+						<th rowspan="2"> </th>
+						<th rowspan="2">Period of Deposit</th>
+						<th colspan="4">Rs. 3 Crore to less than Rs.10 Crore (w.e.f. 10.11.2026)</th>
+						<th colspan="4">Rs. 3 Crore to less than Rs.10 Crore (w.e.f. 10.11.2026)</th>
+					</tr>
+					<tr>
+						<th colspan="2">Rate of Interest (% per annum)</th>
+						<th colspan="2">Annualised Interest Yield (% per annum) *</th>
+						<th colspan="2">Rate of Interest (% per annum)</th>
+						<th colspan="2">Annualised Interest Yield (% per annum) *</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1.</td>
+						<td>1 Year Only</td>
+						<td colspan="2">6.20</td>
+						<td colspan="2">6.35</td>
+						<td colspan="2">6.23</td>
+						<td colspan="2">6.38</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>Above 1 Year to less than 2 Years</td>
+						<td colspan="2">6.20</td>
+						<td colspan="2">6.35</td>
+						<td colspan="2">6.23</td>
+						<td colspan="2">6.38</td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>2 years &amp; above to less than 3 years</td>
+						<td colspan="2">5.50</td>
+						<td colspan="2">5.61</td>
+						<td colspan="2">5.53</td>
+						<td colspan="2">5.65</td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td>3 years &amp; above to less than 5 years</td>
+						<td colspan="2">5.00</td>
+						<td colspan="2">5.09</td>
+						<td colspan="2">5.03</td>
+						<td colspan="2">5.13</td>
+					</tr>
+					<tr>
+						<td>5.</td>
+						<td>5 years &amp; above to 10 years</td>
+						<td colspan="2">5.00</td>
+						<td colspan="2">5.09</td>
+						<td colspan="2">5.03</td>
+						<td colspan="2">5.13</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- NRE NOTES -->
+
+			<div class="nre-note">
+			<p>Penalty is waived for premature extension of Domestic/NRO/NRE term deposits of less than Rs. 3 Crore during the tenure, where extension is for a longer than the period originally agreed to. However, No interest will be payable on NRE term deposits prematurely closed/prematurely extended before completion of 1 year.</p>
+
+			<p>* Approximate Annualized Yield in % terms at the beginning of the slab. Effective Annualized rates of return on Bank's Re-investment Deposit Plan (Kamadhenu Deposit) is based on quarterly compounding of interest.</p>
+
+			<p>No interest will be payable for the period run on NRE term deposits prematurely closed/prematurely extended before completion of one year from the effective date of the deposit.</p>
+
+			<p>NRE Term deposits are auto renewed only once as the Non-resident status is to be confirmed. Overdue NRE deposits will be paid interest as applicable to Savings account from the date of maturity till the date of payment/re-investment.</p>
+
+			<p><strong>PENALTY:</strong> A penalty of 1.00% will be levied for premature closure of NRE term deposits of less than Rs.3 Crore that are placed/renewed on or after 12.03.2019.</p>
+
+			<p><strong>No penalty will be levied for premature closure/premature extension of NRE term deposits of Rs.3 Crore &amp; above that are placed/renewed on or after 12.03.2019. However, a penalty of 1.00% shall be levied for premature closure of NRE term deposits of Rs.1 Crore &amp; above that are placed/renewed from 29.12.2011 to 12.10.2012.</strong></p>
+			</div>
+			</div>
+
+			<p class="savings-heading">Interest rates on FCNR (B) Deposits w.e.f 07.10.2026 (Interest rate % per annum)</p>
+
+			<table class="fcnr-table">
+				<thead>
+					<tr>
+						<th rowspan="2">PERIOD OF DEPOSIT</th>
+						<th colspan="7">CURRENCY OF DEPOSIT</th>
+					</tr>
+					<tr>
+						<th>USD &lt;100000</th>
+						<th>USD&gt;=100000 to<br />
+						USD &lt;1500000</th>
+						<th>USD&gt;=1500000</th>
+						<th>GBP</th>
+						<th>EURO</th>
+						<th>CAD</th>
+						<th>AUD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1 year to less than 2 years</td>
+						<td><strong>4.95</strong></td>
+						<td><strong>5.00</strong></td>
+						<td><strong>5.05</strong></td>
+						<td>4.20</td>
+						<td>2.70</td>
+						<td>3.20</td>
+						<td>3.70</td>
+					</tr>
+					<tr>
+						<td>2 years to less than 3 years</td>
+						<td>3.90</td>
+						<td>3.90</td>
+						<td>3.90</td>
+						<td>3.00</td>
+						<td>2.00</td>
+						<td>3.25</td>
+						<td>3.50</td>
+					</tr>
+					<tr>
+						<td>3 years to less than 4 years</td>
+						<td>3.70</td>
+						<td>3.70</td>
+						<td>3.70</td>
+						<td>2.50</td>
+						<td>1.50</td>
+						<td>3.00</td>
+						<td>3.00</td>
+					</tr>
+					<tr>
+						<td>4 years to less than 5 years</td>
+						<td>3.50</td>
+						<td>3.50</td>
+						<td>3.50</td>
+						<td>2.50</td>
+						<td>1.50</td>
+						<td>3.00</td>
+						<td>3.00</td>
+					</tr>
+					<tr>
+						<td>5 years only</td>
+						<td>3.50</td>
+						<td>3.50</td>
+						<td>3.50</td>
+						<td>2.50</td>
+						<td>1.50</td>
+						<td>3.00</td>
+						<td>3.00</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- Notes --><!-- <div class="fcnr-note">
+    <p><strong>Note: -</strong></p>
+    <p><strong>• The above interest rates are applicable only for FCNR (B) deposits of amount less than USD 1 Million (or its equivalent in other currencies). For FCNR(B) deposit of USD 1 Million &amp; above (or its equivalent in other currencies) please contact our branch.</strong></p>
+    <p><strong>• Compounding of interest in FCNR (B) Term Deposit at half yearly interval (for applicable products).</strong></p>
+    <p><strong>• Annualized yield calculated on the maximum period under the respective period bucket.</strong></p>
+  </div> --></div>
+			<!-- APPENDIX Table -->
+
+			<div class="fcnr-section">
+			<p class="appendix-heading">FCNR (B) Rate of Interest with Annualised Interest Yield Details</p>
+
+			<p class="appendix-heading">(in % p.a.)</p>
+
+			<table class="fcnr-table">
+				<thead>
+					<tr>
+						<th rowspan="2">CURRENCY OF DEPOSIT</th>
+						<th colspan="2">USD &lt; 100000</th>
+						<th colspan="2">USD&gt;=100000 to USD &lt;1500000</th>
+						<th colspan="2">USD&gt;=1500000</th>
+						<th colspan="2">GBP</th>
+						<th colspan="2">EUR</th>
+						<th colspan="2">CAD</th>
+						<th colspan="2">AUD</th>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<th>PERIOD OF DEPOSIT</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+						<th>RATE</th>
+						<th>YIELD*</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>12 months</td>
+						<td>4.95</td>
+						<td><strong>5.08</strong></td>
+						<td>5.00</td>
+						<td><strong>5.14</strong></td>
+						<td>5.05</td>
+						<td><strong>5.19</strong></td>
+						<td>4.20</td>
+						<td><strong>4.30</strong></td>
+						<td>2.70</td>
+						<td><strong>2.76</strong></td>
+						<td>3.20</td>
+						<td><strong>3.27</strong></td>
+						<td>3.70</td>
+						<td><strong>3.79</strong></td>
+					</tr>
+					<tr>
+						<td>24 months</td>
+						<td>3.90</td>
+						<td><strong>4.07</strong></td>
+						<td>3.90</td>
+						<td><strong>4.07</strong></td>
+						<td>3.90</td>
+						<td><strong>4.07</strong></td>
+						<td>3.00</td>
+						<td><strong>3.11</strong></td>
+						<td>2.00</td>
+						<td><strong>2.06</strong></td>
+						<td>3.25</td>
+						<td><strong>3.38</strong></td>
+						<td>3.50</td>
+						<td><strong>3.65</strong></td>
+					</tr>
+					<tr>
+						<td>36 months</td>
+						<td>3.70</td>
+						<td><strong>3.94</strong></td>
+						<td>3.70</td>
+						<td><strong>3.94</strong></td>
+						<td>3.70</td>
+						<td><strong>3.94</strong></td>
+						<td>2.50</td>
+						<td><strong>2.62</strong></td>
+						<td>1.50</td>
+						<td><strong>1.55</strong></td>
+						<td>3.00</td>
+						<td><strong>3.16</strong></td>
+						<td>3.00</td>
+						<td><strong>3.16</strong></td>
+					</tr>
+					<tr>
+						<td>48 months</td>
+						<td>3.50</td>
+						<td><strong>3.78</strong></td>
+						<td>3.50</td>
+						<td><strong>3.78</strong></td>
+						<td>3.50</td>
+						<td><strong>3.78</strong></td>
+						<td>2.50</td>
+						<td><strong>2.65</strong></td>
+						<td>1.50</td>
+						<td><strong>1.56</strong></td>
+						<td>3.00</td>
+						<td><strong>3.21</strong></td>
+						<td>3.00</td>
+						<td><strong>3.21</strong></td>
+					</tr>
+					<tr>
+						<td>60 months</td>
+						<td>3.50</td>
+						<td><strong>3.85</strong></td>
+						<td>3.50</td>
+						<td><strong>3.85</strong></td>
+						<td>3.50</td>
+						<td><strong>3.85</strong></td>
+						<td>2.50</td>
+						<td><strong>2.69</strong></td>
+						<td>1.50</td>
+						<td><strong>1.57</strong></td>
+						<td>3.00</td>
+						<td><strong>3.26</strong></td>
+						<td>3.00</td>
+						<td><strong>3.26</strong></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p style="text-align:right; font-size:16px; margin-top:5px; font-family:Arial;">* Annualised yield at the end of the period.</p>
+			</div>
+
+			<p style="margin-left: 19px"><strong>&nbsp;&nbsp;&nbsp;Note:-</strong></p>
+
+			<ul style="margin-left: 19px; list-style: disc;">
+				<li><strong>Premature withdrawals of FCNR (B) Deposits: No interest is payable, if the deposit is withdrawn before one year</strong>.</li>
+				<br />
+				<li><strong>No premature penalty for the deposit withdrawn after completion of one year. However, in such cases the rate of interest payable on such prematurely closed deposit shall be the rate of interest applicable to FCNR (B) deposit for the period run, ruling as on the date of deposit or on the date of seeking premature withdrawal, whichever, is lower.</strong></li>
+			</ul>
+			<!-- RFC Deposits Table -->
+
+			<div class="fcnr-section">
+			<p class="rfc-heading">Interest rates on RFC Deposits w.e.f. 01.09.2026 (Interest rate % per annum)</p>
+
+			<table class="fcnr-table">
+				<thead>
+					<tr>
+						<th rowspan="2">PERIOD OF DEPOSIT</th>
+						<th colspan="6">CURRENCY OF DEPOSITS</th>
+					</tr>
+					<tr>
+						<th>USD &lt; 100000</th>
+						<th>USD &gt;= 100000</th>
+						<th>GBP</th>
+						<th>EUR</th>
+						<th>CAD</th>
+						<th>AUD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>SAVINGS BANK</td>
+						<td>0.10</td>
+						<td>0.10</td>
+						<td>0.10</td>
+						<td>0.00</td>
+						<td>0.00</td>
+						<td>0.00</td>
+					</tr>
+					<tr>
+						<td>1 month &amp; above but less than 3 months</td>
+						<td>0.10</td>
+						<td>0.10</td>
+						<td>NA</td>
+						<td>NA</td>
+						<td>0.10</td>
+						<td>0.10</td>
+					</tr>
+					<tr>
+						<td>3 months &amp; above but less than 6 months</td>
+						<td>0.10</td>
+						<td>0.10</td>
+						<td>NA</td>
+						<td>NA</td>
+						<td>0.10</td>
+						<td>0.10</td>
+					</tr>
+					<tr>
+						<td>6 months &amp; above but less than 1 year</td>
+						<td>0.10</td>
+						<td>0.10</td>
+						<td>NA</td>
+						<td>NA</td>
+						<td>0.10</td>
+						<td>0.10</td>
+					</tr>
+					<tr>
+						<td>1 year &amp; above but less than 2 years</td>
+						<td>4.95</td>
+						<td>5.00</td>
+						<td>4.20</td>
+						<td>2.70</td>
+						<td>3.20</td>
+						<td>3.70</td>
+					</tr>
+					<tr>
+						<td>2 years &amp; above but less than 3 years</td>
+						<td>3.90</td>
+						<td>3.90</td>
+						<td>3.00</td>
+						<td>2.00</td>
+						<td>3.25</td>
+						<td>3.50</td>
+					</tr>
+					<tr>
+						<td>3 years only</td>
+						<td>3.70</td>
+						<td>3.70</td>
+						<td>2.50</td>
+						<td>1.50</td>
+						<td>3.00</td>
+						<td>3.00</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- RFC Notes -->
+
+			<div class="fcnr-note">
+			<p><strong>Note: -</strong></p>
+
+			<p><strong>• The above interest rates are applicable only for RFC deposits of amount less than USD 1 Million (or its equivalent in other currencies). For RFC deposit of USD 1 Million &amp; above (or its equivalent in other currencies) please contact our branch.</strong></p>
+
+			<p><strong>• Compounding of interest in RFC Term Deposit calculated and paid at intervals of 180 days (for applicable products).</strong></p>
+			</div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
